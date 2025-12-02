@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+}
+
+body{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#header{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070f18;
+    margin: 40px 0px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 45px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu ul li{
+    list-style: none;
+    margin-left: 40px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070f18;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+a:hover{
+    color: red;
+    font-size: 17px;
+}
+
+.gray{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#headercta h1{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+    color: black;
+}
+
+#headercta p{
+    max-width: 550px;
+}
+
+#buttoncta{
+    margin-top: 10px;
+    background: #1f7cff;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#buttoncta:hover{
+    background: #0144a1;
+    font-size: 17px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#headerimg{
+    display: grid;
+    justify-content: flex-end;
+}
+
+#headerimg img{
+    border-radius: 40px;
+}
+
+#clients{
+    margin-top: 40px;
+}
+
+.headerlogo{
+    text-align: center;
+}
+
+#clienttext{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #070f18;
+}
+
+#services{
+    margin-top: 40px;
+}
+
+h2.red{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f75c43;
+}
+
+h1.black{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: black;
+}
+
+.textcenter{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#services .textcenter h3{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #070f18;
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#contactimg img{
+    width: 100%;
+}
+
+#contactform{
+    margin-left: 75px;
+    text-align: left;
+}
+
+
+#contactform input{
+    background: #f5f6fb;
+    border-radius: 50px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #575455;
+    border: none;
+    width: 75%;
+    padding: 15px 25px;
+}
+
+#contactform button{
+    background: #1f7cff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: 600;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#contactform button:hover{
+    background: #074ba9
+}
+
+#portfoliotitle{
+    margin-top: 70px;
+}
+
+.portfolioimg{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolioimg img{
+    width: 100%;
+}
